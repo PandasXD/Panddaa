@@ -1,0 +1,462 @@
+[
+    {
+        "display_question": "可爱女人",
+        "answer_ok": ["可爱女人"],
+        "display_answer": "可爱女人"          
+    }, 
+    {
+        "display_question": "完美主义",
+        "answer_ok": ["完美主义"],
+        "display_answer": "完美主义"          
+    }, 
+    {
+        "display_question": "星晴",
+        "answer_ok": ["星晴"],
+        "display_answer": "星晴"          
+    }, 
+    {
+        "display_question": "黑色幽默",
+        "answer_ok": ["黑色幽默"],
+        "display_answer": "黑色幽默"          
+    },
+    {
+        "display_question": "伊斯坦堡",
+        "answer_ok": ["伊斯坦堡"],
+        "display_answer": "伊斯坦堡"          
+    },
+    {
+        "display_question": "印第安老斑鸠",
+        "answer_ok": ["印第安老斑鸠"],
+        "display_answer": "印第安老斑鸠"          
+    }, 
+    {
+        "display_question": "龙卷风",
+        "answer_ok": ["龙卷风"],
+        "display_answer": "龙卷风"          
+    }, 
+    {
+        "display_question": "反方向的钟",
+        "answer_ok": ["反方向的钟"],
+        "display_answer": "反方向的钟"          
+    }, 
+    {
+        "display_question": "爱在西元前",
+        "answer_ok": ["爱在西元前"],
+        "display_answer": "爱在西元前"          
+    },
+    {
+        "display_question": "简单爱",
+        "answer_ok": ["简单爱"],
+        "display_answer": "简单爱"          
+    },
+    {
+        "display_question": "开不了口",
+        "answer_ok": ["开不了口"],
+        "display_answer": "开不了口"          
+    }, 
+    {
+        "display_question": "上海一九四三",
+        "answer_ok": ["上海一九四三"],
+        "display_answer": "上海一九四三"          
+    }, 
+    {
+        "display_question": "威廉古堡",
+        "answer_ok": ["威廉古堡"],
+        "display_answer": "威廉古堡"          
+    }, 
+    {
+        "display_question": "双截棍",
+        "answer_ok": ["双截棍"],
+        "display_answer": "双截棍"          
+    },
+    {
+        "display_question": "安静",
+        "answer_ok": ["安静"],
+        "display_answer": "安静"          
+    },
+    {
+        "display_question": "范特西",
+        "answer_ok": ["范特西"],
+        "display_answer": "范特西"          
+    }, 
+    {
+        "display_question": "八度空间",
+        "answer_ok": ["八度空间"],
+        "display_answer": "八度空间"          
+    }, 
+    {
+        "display_question": "半兽人",
+        "answer_ok": ["半兽人"],
+        "display_answer": "半兽人"          
+    }, 
+    {
+        "display_question": "半岛铁盒",
+        "answer_ok": ["半岛铁盒"],
+        "display_answer": "半岛铁盒"          
+    },
+    {
+        "display_question": "暗号",
+        "answer_ok": ["暗号"],
+        "display_answer": "暗号"          
+    },
+    {
+        "display_question": "火车叨位去",
+        "answer_ok": ["火车叨位去"],
+        "display_answer": "火车叨位去"          
+    }, 
+    {
+        "display_question": "爷爷泡的茶",
+        "answer_ok": ["爷爷泡的茶"],
+        "display_answer": "爷爷泡的茶"          
+    }, 
+    {
+        "display_question": "回到过去",
+        "answer_ok": ["回到过去"],
+        "display_answer": "回到过去"          
+    }, 
+    {
+        "display_question": "米兰的小铁匠",
+        "answer_ok": ["米兰的小铁匠"],
+        "display_answer": "米兰的小铁匠"          
+    },
+    {
+        "display_question": "最后的战役",
+        "answer_ok": ["最后的战役"],
+        "display_answer": "最后的战役"          
+    },
+    {
+        "display_question": "叶惠美",
+        "answer_ok": ["叶惠美"],
+        "display_answer": "叶惠美"
+    },
+    {
+        "display_question": "以父之名",
+        "answer_ok": ["以父之名"],
+        "display_answer": "以父之名"
+    },
+    {
+        "display_question": "晴天",
+        "answer_ok": ["晴天"],
+        "display_answer": "晴天"
+    },
+    {
+        "display_question": "三年二班",
+        "answer_ok": ["三年二班"],
+        "display_answer": "三年二班"
+    },
+    {
+        "display_question": "东风破",
+        "answer_ok": ["东风破"],
+        "display_answer": "东风破"
+    },
+    {
+        "display_question": "你听得到",
+        "answer_ok": ["你听得到"],
+        "display_answer": "你听得到"
+    },
+    {
+        "display_question": "同一种调调",
+        "answer_ok": ["同一种调调"],
+        "display_answer": "同一种调调"
+    },
+    {
+        "display_question": "她的睫毛",
+        "answer_ok": ["她的睫毛"],
+        "display_answer": "她的睫毛"
+    },
+    {
+        "display_question": "爱情悬崖",
+        "answer_ok": ["爱情悬崖"],
+        "display_answer": "爱情悬崖"
+    },
+    {
+        "display_question": "梯田",
+        "answer_ok": ["梯田"],
+        "display_answer": "梯田"
+    },
+    {
+        "display_question": "七里香",
+        "answer_ok": ["七里香"],
+        "display_answer": "七里香"
+    },
+    {
+        "display_question": "我的地盘",
+        "answer_ok": ["我的地盘"],
+        "display_answer": "我的地盘"
+    },
+    {
+        "display_question": "将军",
+        "answer_ok": ["将军"],
+        "display_answer": "将军"
+    },
+    {
+        "display_question": "搁浅",
+        "answer_ok": ["搁浅"],
+        "display_answer": "搁浅"
+    },
+    {
+        "display_question": "乱舞春秋",
+        "answer_ok": ["乱舞春秋"],
+        "display_answer": "乱舞春秋"
+    },
+    {
+        "display_question": "困兽之斗",
+        "answer_ok": ["困兽之斗"],
+        "display_answer": "困兽之斗"
+    },
+    {
+        "display_question": "园游会",
+        "answer_ok": ["园游会"],
+        "display_answer": "园游会"
+    },
+    {
+        "display_question": "止战之殇",
+        "answer_ok": ["止战之殇"],
+        "display_answer": "止战之殇"
+    },
+    {
+        "display_question": "十一月的萧邦",
+        "answer_ok": ["十一月的萧邦"],
+        "display_answer": "十一月的萧邦"
+    },
+    {
+        "display_question": "蓝色风暴",
+        "answer_ok": ["蓝色风暴"],
+        "display_answer": "蓝色风暴"
+    },
+    {
+        "display_question": "发如雪",
+        "answer_ok": ["发如雪"],
+        "display_answer": "发如雪"
+    },
+    {
+        "display_question": "黑色毛衣",
+        "answer_ok": ["黑色毛衣"],
+        "display_answer": "黑色毛衣"
+    },
+    {
+        "display_question": "四面楚歌",
+        "answer_ok": ["四面楚歌"],
+        "display_answer": "四面楚歌"
+    },
+    {
+        "display_question": "浪漫手机",
+        "answer_ok": ["浪漫手机"],
+        "display_answer": "浪漫手机"
+    },
+    {
+        "display_question": "逆鳞",
+        "answer_ok": ["逆鳞"],
+        "display_answer": "逆鳞"
+    },
+    {
+        "display_question": "麦芽糖",
+        "answer_ok": ["麦芽糖"],
+        "display_answer": "麦芽糖"
+    },
+    {
+        "display_question": "珊瑚海",
+        "answer_ok": ["珊瑚海"],
+        "display_answer": "珊瑚海"
+    },
+    {
+        "display_question": "一路向北",
+        "answer_ok": ["一路向北"],
+        "display_answer": "一路向北"
+    },
+    {
+        "display_question": "依然范特西",
+        "answer_ok": ["依然范特西"],
+        "display_answer": "依然范特西"
+    },
+    {
+        "display_question": "夜的第七章",
+        "answer_ok": ["夜的第七章"],
+        "display_answer": "夜的第七章"
+    },
+    {
+        "display_question": "听妈妈的话",
+        "answer_ok": ["听妈妈的话"],
+        "display_answer": "听妈妈的话"
+    },
+    {
+        "display_question": "千里之外",
+        "answer_ok": ["千里之外"],
+        "display_answer": "千里之外"
+    },
+    {
+        "display_question": "本草纲目",
+        "answer_ok": ["本草纲目"],
+        "display_answer": "本草纲目"
+    },
+    {
+        "display_question": "红模仿",
+        "answer_ok": ["红模仿"],
+        "display_answer": "红模仿"
+    },
+    {
+        "display_question": "白色风车",
+        "answer_ok": ["白色风车"],
+        "display_answer": "白色风车"
+    },
+    {
+        "display_question": "迷迭香",
+        "answer_ok": ["迷迭香"],
+        "display_answer": "迷迭香"
+    },
+    {
+        "display_question": "菊花台",
+        "answer_ok": ["菊花台"],
+        "display_answer": "菊花台"
+    },
+    {
+        "display_question": "我很忙",
+        "answer_ok": ["我很忙"],
+        "display_answer": "我很忙"
+    },
+    {
+        "display_question": "牛仔很忙",
+        "answer_ok": ["牛仔很忙"],
+        "display_answer": "牛仔很忙"
+    },
+    {
+        "display_question": "青花瓷",
+        "answer_ok": ["青花瓷"],
+        "display_answer": "青花瓷"
+    },
+    {
+        "display_question": "阳光宅男",
+        "answer_ok": ["阳光宅男"],
+        "display_answer": "阳光宅男"
+    },
+    {
+        "display_question": "蒲公英的约定",
+        "answer_ok": ["蒲公英的约定"],
+        "display_answer": "蒲公英的约定"
+    },
+    {
+        "display_question": "我不配",
+        "answer_ok": ["我不配"],
+        "display_answer": "我不配"
+    },
+    {
+        "display_question": "甜甜的",
+        "answer_ok": ["甜甜的"],
+        "display_answer": "甜甜的"
+    },
+    {
+        "display_question": "最长的电影",
+        "answer_ok": ["最长的电影"],
+        "display_answer": "最长的电影"
+    },
+    {
+        "display_question": "魔杰座",
+        "answer_ok": ["魔杰座"],
+        "display_answer": "魔杰座"
+    },
+    {
+        "display_question": "龙战骑士",
+        "answer_ok": ["龙战骑士"],
+        "display_answer": "龙战骑士"
+    },
+    {
+        "display_question": "一首歌的时间",
+        "answer_ok": ["一首歌的时间"],
+        "display_answer": "一首歌的时间"
+    },
+    {
+        "display_question": "魔术先生",
+        "answer_ok": ["魔术先生"],
+        "display_answer": "魔术先生"
+    },
+    {
+        "display_question": "说好的幸福呢",
+        "answer_ok": ["说好的幸福呢"],
+        "display_answer": "说好的幸福呢"
+    },
+    {
+        "display_question": "兰亭序",
+        "answer_ok": ["兰亭序"],
+        "display_answer": "兰亭序"
+    },
+    {
+        "display_question": "流浪诗人",
+        "answer_ok": ["流浪诗人"],
+        "display_answer": "流浪诗人"
+    },
+    {
+        "display_question": "时光机",
+        "answer_ok": ["时光机"],
+        "display_answer": "时光机"
+    },
+    {
+        "display_question": "乔克叔叔",
+        "answer_ok": ["乔克叔叔"],
+        "display_answer": "乔克叔叔"
+    },
+    {
+        "display_question": "稻香",
+        "answer_ok": ["稻香"],
+        "display_answer": "稻香"
+    },
+    {
+        "display_question": "跨時代",
+        "answer_ok": ["跨時代"],
+        "display_answer": "跨時代"
+    },
+    {
+        "display_question": "烟花易冷",
+        "answer_ok": ["烟花易冷"],
+        "display_answer": "烟花易冷"
+    },
+    {
+        "display_question": "超人不会飞",
+        "answer_ok": ["超人不会飞"],
+        "display_answer": "超人不会飞"
+    },
+    {
+        "display_question": "惊叹号",
+        "answer_ok": ["惊叹号"],
+        "display_answer": "惊叹号"
+    },
+    {
+        "display_question": "公主病",
+        "answer_ok": ["公主病"],
+        "display_answer": "公主病"
+    },
+    {
+        "display_question": "红尘客栈",
+        "answer_ok": ["红尘客栈"],
+        "display_answer": "红尘客栈"
+    },
+    {
+        "display_question": "大笨钟",
+        "answer_ok": ["大笨钟"],
+        "display_answer": "大笨钟"
+    },
+    {
+        "display_question": "乌克里里",
+        "answer_ok": ["乌克里里"],
+        "display_answer": "乌克里里"
+    },
+    {
+        "display_question": "算什么男人",
+        "answer_ok": ["算什么男人"],
+        "display_answer": "算什么男人"
+    },
+    {
+        "display_question": "天涯过客",
+        "answer_ok": ["天涯过客"],
+        "display_answer": "天涯过客"
+    },
+    {
+        "display_question": "鞋子特大号",
+        "answer_ok": ["鞋子特大号"],
+        "display_answer": "鞋子特大号"
+    },
+    {
+        "display_question": "告白气球",
+        "answer_ok": ["告白气球"],
+        "display_answer": "告白气球"
+    }
+]

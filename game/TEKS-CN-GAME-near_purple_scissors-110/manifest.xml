@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.1.0" uuid="sbr_30050_brain_008_near_purple_scissors">
+ <names>
+  <name lang="en_US">Follow Pepper's Direction</name>
+  <name lang="en_US-x-scrald">Follow Pepper's Direction</name>
+  <name lang="ja_JP">いいなりじゃんけん</name>
+  <name lang="ja_JP-x-scrald">いいなりじゃんけん</name>
+ </names>
+ <descriptions>
+  <description lang="ja_JP">Pepperブレインアプリ内で動作するトレーニングの1つ。
+ペッパーの指示に従い、じゃんけんの勝ち負けを正しく選ぶアプリです。</description>
+  <description lang="ja_JP-x-scrald">Pepperブレインアプリ内で動作するトレーニングの1つ。
+ペッパーの指示に従い、じゃんけんの勝ち負けを正しく選ぶアプリです。</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+  <language>zh_CN</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+  <language>zh_CN</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Follow Pepper's Direction</name>
+    <name lang="en_US-x-scrald">Follow Pepper's Direction</name>
+    <name lang="ja_JP">いいなりじゃんけん</name>
+    <name lang="ja_JP-x-scrald">いいなりじゃんけん</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4" maxVersion="2"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

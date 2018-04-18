@@ -1,0 +1,19 @@
+topic: ~title()
+language: mnc
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+u:({*}[开始 开了 启动]{*})$output="START"
+u:({*}[正常 普通]{*})$output="NORMAL"
+u:({*}[困难 艰难]{*})$output="HARD"
+u:({*}[排名 排行榜 名次]{*})$output="RANKING"
+u:({*}[说明 解释 介绍]{*})$output="SETUMEI"
+u:({*}[再来一次 再来 再说一次]{*})$output="AGAIN"
+u:({*}[结束 终了 关闭]{*})$output="END"
+u:(e:Dialog/NotUnderstood)$output="ELSE"

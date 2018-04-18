@@ -1,0 +1,441 @@
+/*本岡one pair 用に微調整 START*/
+
+.ranking_bg {
+    font-size: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+.ranking_bg img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*本岡one pair 用に微調整END*/
+
+#ranking_on {
+    position: absolute;
+    top: 0px;
+    right: 170px;
+    visibility: hidden;
+    display: none;
+}
+
+#ranking_off {
+    position: absolute;
+    top: 0px;
+    right: 170px;
+    visibility: visible;
+    display: none;
+}
+
+#line {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+#rank_end_on {
+    position: absolute;
+    top: 35px;
+    right: -160px;
+    visibility: hidden;
+}
+
+#rank_end_off {
+    position: absolute;
+    top: 35px;
+    right: -160px;
+    visibility: visible;
+}
+
+
+/* ランキング関連 以下 */
+
+
+/* ランキング共通のclass*/
+
+.ranking_bg {
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+}
+
+.ranking_header {
+    width: 1280px;
+    height: 200px;
+    position: absolute;
+}
+
+.ranking_category {
+    width: 1280px;
+    height: 57px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    top: 132px;
+}
+
+.ranking_app_name {
+    position: absolute;
+    width: 1280px;
+    height: 57px;
+    font-family: Rodin-DB;
+    top: -18px;
+}
+
+.ranking_change_btn {
+    position: absolute;
+    width: 141px;
+    height: 118px;
+    right: 25px;
+}
+
+.rand_data {
+    width: 1000px;
+    height: 430px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.ranking_plate {
+    width: 980px;
+    height: 128px;
+    margin-top: 10px;
+}
+
+
+/*○位class*/
+
+.rank {
+    height: 120px;
+    width: 130px;
+    font-size: 58px;
+    font-weight: bolder;
+    margin-top: 7px;
+    margin-left: 30px;
+    position: absolute;
+    font-family: Rodin-DB;
+}
+
+
+/*アイコンclass*/
+
+.icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -7px;
+}
+
+.img_cycle {
+    width: 135px;
+    height: 135px;
+    border-radius: 70px;
+    border: 3px solid #000;
+}
+
+
+/*名前class*/
+
+.name {
+    width: 350px;
+    height: 117px;
+    position: absolute;
+    font-size: 60px;
+    margin-left: 280px;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Rodin-DB;
+}
+
+
+/*ランクclass*/
+
+.rank2 {
+    width: 100px;
+    height: 102px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 725px;
+}
+
+
+/*クリア回数class*/
+
+.clear-count {
+    position: absolute;
+    width: 907px;
+    height: 44px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 83px;
+    margin-top: 13px;
+    text-align: right;
+    font-family: Rodin-DB;
+}
+
+
+/*クリアタイムclass*/
+
+.clear-time {
+    position: absolute;
+    width: 907px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 83px;
+    margin-top: 53px;
+    text-align: right;
+    font-family: Rodin-DB;
+}
+
+
+/*
+*ランキング ノーマル
+*/
+
+#ranking_normal {
+    background-image: url(../images/ranking/bg.png);
+}
+
+#ranking_hard_btn_on {
+    visibility: visible;
+}
+
+#ranking_hard_btn_off {
+    visibility: visible;
+}
+
+#normal_1st {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+#normal_2nd {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+#normal_3rd {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+
+/*一位*/
+
+#rank_1st_normal {}
+
+#icon_1st_normal {}
+
+#name_1st_normal {}
+
+#rank2_1st_normal {}
+
+#clear-count_1st_normal {}
+
+#clear-time_1st_normal {}
+
+
+/*二位*/
+
+#rank_2nd_normal {}
+
+#icon_2nd_normal {}
+
+#name_2nd_normal {}
+
+#rank2_2nd_normal {}
+
+#clear-count_2nd_normal {}
+
+#clear-time_2nd_normal {}
+
+
+/*3位*/
+
+#rank_3rd_normal {}
+
+#icon_3rd_normal {}
+
+#name_3rd_normal {}
+
+#rank2_3rd_normal {}
+
+#clear-count_3rd_normal {}
+
+#clear-time_3rd_normal {}
+
+
+/*
+*ランキング ハード
+*/
+
+#ranking_hard {
+    background-image: url(../images/ranking/bg.png);
+}
+
+#ranking_normal_btn_on {
+    visibility: visible;
+}
+
+#ranking_normal_btn_off {
+    visibility: visible;
+}
+
+#hard_1st {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+#hard_2nd {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+#hard_3rd {
+    background-image: url(../images/ranking/ranking_plate.png);
+    visibility: hidden;
+}
+
+
+/*一位*/
+
+#rank_1st_hard {}
+
+#icon_1st_hard {}
+
+#name_1st_hard {}
+
+#rank2_1st_hard {}
+
+#clear-count_1st_hard {}
+
+#clear-time_1st_hard {}
+
+
+/*二位*/
+
+#rank_2nd_hard {}
+
+#icon_2nd_hard {}
+
+#name_2nd_hard {}
+
+#rank2_2nd_hard {}
+
+#clear-count_2nd_hard {}
+
+#clear-time_2nd_hard {}
+
+
+/*3位*/
+
+#rank_3rd_hard {}
+
+#icon_3rd_hard {}
+
+#name_3rd_hard {}
+
+#rank2_3rd_hard {}
+
+#clear-count_3rd_hard {}
+
+#clear-time_3rd_hard {}
+
+
+/*自己ベスト クラス*/
+
+.new_record {
+    width: 980px;
+    height: 94px;
+    position: absolute;
+    top: 480px;
+}
+
+.record_rank2 {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-left: 525px;
+    font-family: Rodin-DB;
+}
+
+.record_question {
+    position: absolute;
+    width: 945px;
+    height: 60px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 35px;
+    margin-top: -15px;
+    text-align: right;
+    font-family: Rodin-DB;
+}
+
+.record_second {
+    position: absolute;
+    width: 945px;
+    height: 60px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 35px;
+    margin-top: 38px;
+    text-align: right;
+    font-family: Rodin-DB;
+}
+
+.rank_end_btn {
+    position: absolute;
+    top: -10px;
+    right: -150px;
+}
+
+
+/*自己ベスト ノーマル*/
+
+#new_record_normal {}
+
+#record_rank2_normal {}
+
+#record_question_normal {}
+
+#record_second_normal {}
+
+#rank_end_on_normal {
+    visibility: hidden;
+}
+
+#rank_end_off_normal {
+    visibility: visible;
+}
+
+
+/* 自己ベスト ハード */
+
+#new_record_hard {}
+
+#record_rank2_hard {}
+
+#record_question_hard {}
+
+#record_second_hard {}
+
+#rank_end_on_hard {
+    visibility: hidden;
+}
+
+#rank_end_off_hard {
+    visibility: visible;
+}

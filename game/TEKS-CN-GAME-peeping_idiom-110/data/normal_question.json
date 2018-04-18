@@ -1,0 +1,627 @@
+[
+    {
+        "display_question": "重庆",
+        "answer_ok": ["重庆"],
+        "display_answer": "重庆"          
+    }, 
+    {
+        "display_question": "全国",
+        "answer_ok": ["全国"],
+        "display_answer": "全国"          
+    }, 
+    {
+        "display_question": "大红桥",
+        "answer_ok": ["大红桥"],
+        "display_answer": "大红桥"          
+    }, 
+    {
+        "display_question": "张家湾",
+        "answer_ok": ["张家湾"],
+        "display_answer": "张家湾"          
+    },
+    {
+        "display_question": "齐化门",
+        "answer_ok": ["齐化门"],
+        "display_answer": "齐化门"          
+    },
+    {
+        "display_question": "德胜门",
+        "answer_ok": ["德胜门"],
+        "display_answer": "德胜门"          
+    }, 
+    {
+        "display_question": "昌平",
+        "answer_ok": ["昌平"],
+        "display_answer": "昌平"          
+    }, 
+    {
+        "display_question": "南口",
+        "answer_ok": ["南口"],
+        "display_answer": "南口"          
+    }, 
+    {
+        "display_question": "天津",
+        "answer_ok": ["天津"],
+        "display_answer": "天津"          
+    },
+    {
+        "display_question": "河南",
+        "answer_ok": ["河南"],
+        "display_answer": "河南"          
+    },
+    {
+        "display_question": "吉林",
+        "answer_ok": ["吉林"],
+        "display_answer": "吉林"          
+    }, 
+    {
+        "display_question": "苏州",
+        "answer_ok": ["苏州"],
+        "display_answer": "苏州"          
+    }, 
+    {
+        "display_question": "学校",
+        "answer_ok": ["学校"],
+        "display_answer": "学校"          
+    }, 
+    {
+        "display_question": "解散",
+        "answer_ok": ["解散"],
+        "display_answer": "解散"          
+    },
+    {
+        "display_question": "绍兴",
+        "answer_ok": ["绍兴"],
+        "display_answer": "绍兴"          
+    },
+    {
+        "display_question": "握手",
+        "answer_ok": ["握手"],
+        "display_answer": "握手"          
+    }, 
+    {
+        "display_question": "凤阳",
+        "answer_ok": ["凤阳"],
+        "display_answer": "凤阳"          
+    }, 
+    {
+        "display_question": "海贼",
+        "answer_ok": ["海賊"],
+        "display_answer": "海贼"          
+    }, 
+    {
+        "display_question": "安定",
+        "answer_ok": ["安定"],
+        "display_answer": "安定"          
+    },
+    {
+        "display_question": "柔道",
+        "answer_ok": ["柔道"],
+        "display_answer": "柔道"          
+    },
+    {
+        "display_question": "音乐",
+        "answer_ok": ["音乐"],
+        "display_answer": "音乐"          
+    }, 
+    {
+        "display_question": "章丘",
+        "answer_ok": ["章丘"],
+        "display_answer": "章丘"          
+    }, 
+    {
+        "display_question": "吴郡",
+        "answer_ok": ["吴郡"],
+        "display_answer": "吴郡"          
+    }, 
+    {
+        "display_question": "宝坻",
+        "answer_ok": ["宝坻"],
+        "display_answer": "宝坻"          
+    },
+    {
+        "display_question": "定兴",
+        "answer_ok": ["定兴"],
+        "display_answer": "定兴"          
+    },
+    {
+        "display_question": "沧州",
+        "answer_ok": ["沧州"],
+        "display_answer": "沧州"   
+    },
+    {
+        "display_question": "吴桥",
+        "answer_ok": ["吴桥"],
+        "display_answer": "吴桥"
+    },
+    {
+        "display_question": "宜兴",
+        "answer_ok": ["宜兴"],
+        "display_answer": "宜兴"
+    },
+    {
+        "display_question": "武清",
+        "answer_ok": ["武清"],
+        "display_answer": "武清"
+    },
+    {
+        "display_question": "杨村",
+        "answer_ok": ["杨村"],
+        "display_answer": "杨村"
+    },
+    {
+        "display_question": "体育",
+        "answer_ok": ["体育"],
+        "display_answer": "体育"
+    },
+    {
+        "display_question": "万寿山",
+        "answer_ok": ["万寿山"],
+        "display_answer": "万寿山"
+    },
+    {
+        "display_question": "颐和园",
+        "answer_ok": ["颐和园"],
+        "display_answer": "颐和园"
+    },
+    {
+        "display_question": "故宫",
+        "answer_ok": ["故宫"],
+        "display_answer": "故宫"
+    },
+    {
+        "display_question": "关山",
+        "answer_ok": ["关山"],
+        "display_answer": "关山"
+    },
+    {
+        "display_question": "卢沟",
+        "answer_ok": ["卢沟"],
+        "display_answer": "卢沟"
+    },
+    {
+        "display_question": "金属",
+        "answer_ok": ["金属"],
+        "display_answer": "金属"
+    },
+    {
+        "display_question": "浮桥",
+        "answer_ok": ["浮桥"],
+        "display_answer": "浮桥"
+    },
+    {
+        "display_question": "禁止",
+        "answer_ok": ["禁止"],
+        "display_answer": "禁止"
+    },
+    {
+        "display_question": "九河",
+        "answer_ok": ["九河"],
+        "display_answer": "九河"
+    },
+    {
+        "display_question": "貂皮",
+        "answer_ok": ["貂皮"],
+        "display_answer": "貂皮"
+    },
+    {
+        "display_question": "人参",
+        "answer_ok": ["人参"],
+        "display_answer": "人参"
+    },
+    {
+        "display_question": "逃走",
+        "answer_ok": ["逃走"],
+        "display_answer": "逃走"
+    },
+    {
+        "display_question": "必要",
+        "answer_ok": ["必要"],
+        "display_answer": "必要"
+    },
+    {
+        "display_question": "保定府",
+        "answer_ok": ["保定府"],
+        "display_answer": "保定府"
+    },
+    {
+        "display_question": "南京",
+        "answer_ok": ["南京"],
+        "display_answer": "南京"
+    },
+    {
+        "display_question": "西藏",
+        "answer_ok": ["西藏"],
+        "display_answer": "西藏"
+    },
+    {
+        "display_question": "新疆",
+        "answer_ok": ["新疆"],
+        "display_answer": "新疆"
+    },
+    {
+        "display_question": "时间",
+        "answer_ok": ["时间"],
+        "display_answer": "时间"
+    },
+    {
+        "display_question": "英国",
+        "answer_ok": ["英国"],
+        "display_answer": "英国"
+    },
+    {
+        "display_question": "香水",
+        "answer_ok": ["香水"],
+        "display_answer": "香水"
+    },
+    {
+        "display_question": "旅行",
+        "answer_ok": ["旅行"],
+        "display_answer": "旅行"
+    },
+    {
+        "display_question": "电话",
+        "answer_ok": ["电话"],
+        "display_answer": "电话"
+    },
+    {
+        "display_question": "歌手",
+        "answer_ok": ["歌手"],
+        "display_answer": "歌手"
+    },
+    {
+        "display_question": "电车",
+        "answer_ok": ["电车"],
+        "display_answer": "电车"
+    },
+    {
+        "display_question": "北海楼",
+        "answer_ok": ["北海楼"],
+        "display_answer": "北海楼"
+    },
+    {
+        "display_question": "万寿宫",
+        "answer_ok": ["万寿宫"],
+        "display_answer": "万寿宫"
+    },
+    {
+        "display_question": "北大关",
+        "answer_ok": ["北大关"],
+        "display_answer": "北大关"
+    },
+    {
+        "display_question": "汉沟",
+        "answer_ok": ["汉沟"],
+        "display_answer": "汉沟"
+    },
+    {
+        "display_question": "柴达木",
+        "answer_ok": ["柴达木"],
+        "display_answer": "柴达木"
+    },
+    {
+        "display_question": "西安",
+        "answer_ok": ["西安"],
+        "display_answer": "西安"
+    },
+    {
+        "display_question": "咸阳",
+        "answer_ok": ["咸阳"],
+        "display_answer": "咸阳"
+    },
+    {
+        "display_question": "大豆",
+        "answer_ok": ["大豆"],
+        "display_answer": "大豆"
+    },
+    {
+        "display_question": "延安",
+        "answer_ok": ["延安"],
+        "display_answer": "延安"
+    },
+    {
+        "display_question": "陕西",
+        "answer_ok": ["陕西"],
+        "display_answer": "陕西"
+    },
+    {
+        "display_question": "英语",
+        "answer_ok": ["英语"],
+        "display_answer": "英语"
+    },
+    {
+        "display_question": "潼关",
+        "answer_ok": ["潼关"],
+        "display_answer": "潼关"
+    },
+    {
+        "display_question": "汉口",
+        "answer_ok": ["汉口"],
+        "display_answer": "汉口"
+    },
+    {
+        "display_question": "信阳",
+        "answer_ok": ["信阳"],
+        "display_answer": "信阳"
+    },
+    {
+        "display_question": "驻马店",
+        "answer_ok": ["驻马店"],
+        "display_answer": "驻马店"
+    },
+    {
+        "display_question": "横店",
+        "answer_ok": ["横店"],
+        "display_answer": "横店"
+    },
+    {
+        "display_question": "衡阳",
+        "answer_ok": ["衡阳"],
+        "display_answer": "衡阳"
+    },
+    {
+        "display_question": "湖南",
+        "answer_ok": ["湖南"],
+        "display_answer": "湖南"
+    },
+    {
+        "display_question": "广西",
+        "answer_ok": ["广西"],
+        "display_answer": "广西"
+    },
+    {
+        "display_question": "四川",
+        "answer_ok": ["四川"],
+        "display_answer": "四川"
+    },
+    {
+        "display_question": "成都",
+        "answer_ok": ["成都"],
+        "display_answer": "成都"
+    },
+    {
+        "display_question": "重庆",
+        "answer_ok": ["重庆"],
+        "display_answer": "重庆"
+    },
+    {
+        "display_question": "贵州",
+        "answer_ok": ["贵州"],
+        "display_answer": "贵州"
+    },
+    {
+        "display_question": "遵义",
+        "answer_ok": ["遵义"],
+        "display_answer": "遵义"
+    },
+    {
+        "display_question": "贵阳",
+        "answer_ok": ["贵阳"],
+        "display_answer": "贵阳"
+    },
+    {
+        "display_question": "云南",
+        "answer_ok": ["云南"],
+        "display_answer": "云南"
+    },
+    {
+        "display_question": "昆明",
+        "answer_ok": ["昆明"],
+        "display_answer": "昆明"
+    },
+    {
+        "display_question": "龙门",
+        "answer_ok": ["龙门"],
+        "display_answer": "龙门"
+    },
+    {
+        "display_question": "黄河",
+        "answer_ok": ["黄河"],
+        "display_answer": "黄河"
+    },
+    {
+        "display_question": "山西",
+        "answer_ok": ["山西"],
+        "display_answer": "山西"
+    },
+    {
+        "display_question": "榆次",
+        "answer_ok": ["榆次"],
+        "display_answer": "榆次"
+    },
+    {
+        "display_question": "太原",
+        "answer_ok": ["太原"],
+        "display_answer": "太原"
+    },
+    {
+        "display_question": "寿阳",
+        "answer_ok": ["寿阳"],
+        "display_answer": "寿阳"
+    },
+    {
+        "display_question": "河北",
+        "answer_ok": ["河北"],
+        "display_answer": "河北"
+    },
+    {
+        "display_question": "石家庄",
+        "answer_ok": ["石家庄"],
+        "display_answer": "石家庄"
+    },
+    {
+        "display_question": "保定",
+        "answer_ok": ["保定"],
+        "display_answer": "保定"
+    },
+    {
+        "display_question": "沧州",
+        "answer_ok": ["沧州"],
+        "display_answer": "沧州"
+    },
+    {
+        "display_question": "禹城",
+        "answer_ok": ["禹城"],
+        "display_answer": "禹城"
+    },
+    {
+        "display_question": "山东",
+        "answer_ok": ["山东"],
+        "display_answer": "山东"
+    },
+    {
+        "display_question": "济南",
+        "answer_ok": ["济南"],
+        "display_answer": "济南"
+    },
+    {
+        "display_question": "曲阜",
+        "answer_ok": ["曲阜"],
+        "display_answer": "曲阜"
+    },
+    {
+        "display_question": "兖州",
+        "answer_ok": ["兖州"],
+        "display_answer": "兖州"
+    },
+    {
+        "display_question": "龙潭",
+        "answer_ok": ["龙潭"],
+        "display_answer": "龙潭"
+    },
+    {
+        "display_question": "镇江",
+        "answer_ok": ["镇江"],
+        "display_answer": "镇江"
+    },
+    {
+        "display_question": "昆山",
+        "answer_ok": ["昆山"],
+        "display_answer": "昆山"
+    },
+    {
+        "display_question": "无锡",
+        "answer_ok": ["无锡"],
+        "display_answer": "无锡"
+    },
+    {
+        "display_question": "苏州",
+        "answer_ok": ["苏州"],
+        "display_answer": "苏州"
+    },
+    {
+        "display_question": "松江",
+        "answer_ok": ["松江"],
+        "display_answer": "松江"
+    },
+    {
+        "display_question": "浙江",
+        "answer_ok": ["浙江"],
+        "display_answer": "浙江"
+    },
+    {
+        "display_question": "金华",
+        "answer_ok": ["金华"],
+        "display_answer": "金华"
+    },
+    {
+        "display_question": "瑞金",
+        "answer_ok": ["瑞金"],
+        "display_answer": "瑞金"
+    },
+    {
+        "display_question": "江西",
+        "answer_ok": ["江西"],
+        "display_answer": "江西"
+    },
+    {
+        "display_question": "福州",
+        "answer_ok": ["福州"],
+        "display_answer": "福州"
+    },
+    {
+        "display_question": "泉州",
+        "answer_ok": ["泉州"],
+        "display_answer": "泉州"
+    },
+    {
+        "display_question": "金门",
+        "answer_ok": ["金门"],
+        "display_answer": "金门"
+    },
+    {
+        "display_question": "厦门",
+        "answer_ok": ["厦门"],
+        "display_answer": "厦门"
+    },
+    {
+        "display_question": "广东",
+        "answer_ok": ["广东"],
+        "display_answer": "广东"
+    },
+    {
+        "display_question": "海南",
+        "answer_ok": ["海南"],
+        "display_answer": "海南"
+    },
+    {
+        "display_question": "九龙",
+        "answer_ok": ["九龙"],
+        "display_answer": "九龙"
+    },
+    {
+        "display_question": "老挝",
+        "answer_ok": ["老挝"],
+        "display_answer": "老挝"
+    },
+    {
+        "display_question": "泰国",
+        "answer_ok": ["泰国"],
+        "display_answer": "泰国"
+    },
+    {
+        "display_question": "曼谷",
+        "answer_ok": ["曼谷"],
+        "display_answer": "曼谷"
+    },
+    {
+        "display_question": "秘密",
+        "answer_ok": ["秘密"],
+        "display_answer": "秘密"
+    },
+    {
+        "display_question": "缅甸",
+        "answer_ok": ["缅甸"],
+        "display_answer": "缅甸"
+    },
+    {
+        "display_question": "印度",
+        "answer_ok": ["印度"],
+        "display_answer": "印度"
+    },
+    {
+        "display_question": "南平",
+        "answer_ok": ["南平"],
+        "display_answer": "南平"
+    },
+    {
+        "display_question": "延吉",
+        "answer_ok": ["延吉"],
+        "display_answer": "延吉"
+    },
+    {
+        "display_question": "牡丹江",
+        "answer_ok": ["牡丹江"],
+        "display_answer": "牡丹江"
+    },
+    {
+        "display_question": "佳木斯",
+        "answer_ok": ["佳木斯"],
+        "display_answer": "佳木斯"
+    },
+    {
+        "display_question": "理科",
+        "answer_ok": ["理科"],
+        "display_answer": "理科"
+    }
+]

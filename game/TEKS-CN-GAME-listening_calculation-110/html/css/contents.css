@@ -1,0 +1,219 @@
+
+#example {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/title/example_bg.png');
+    
+}
+/*************************
+* 問題リセット
+*************************/
+#question-preparation-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/contents/question_bg.png'); 
+}
+.question-title {
+    position: absolute;
+    top: 6px;
+    left: 484px;
+    font-size: 48px;
+    text-align: center;
+    width: 313px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'rodin-b';
+}
+.question-time-bg {
+    position:absolute;
+    top: 0px;
+    left: 974px;
+    width: 306px;
+    height: 106px;
+    background-image: url(../images/contents/question_time.png);
+    background-repeat: no-repeat;
+}
+.counter {
+    font-family: 'kakugo';
+    width: 90px;
+    position: absolute;
+    top: -18px;
+    font-size: 64px;
+    text-align: center;
+    left: 1106px;
+    color: #ee7d04;
+}
+
+/*************************
+* 音声受付
+* もう一度聞くボターン
+*************************/
+#answer-check-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/contents/question_bg.png'); 
+}
+#txt-question {
+    position: absolute;
+    top: 290px;
+    width: 1280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    font-size:120px;
+    color:#000000;
+    line-height:115px;
+}
+#btn-ltn-agn {
+    position: absolute;
+    top: 470px;
+    left: 340px;
+    width: 600px;
+    height: 108px;
+    background-image:url('../images/contents/btn_play_again_off.png');  
+}
+
+/*************************
+* 答えの表示
+*************************/
+#answer-replay-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/contents/question_bg.png');
+}
+#answer {
+    position: fixed;
+    top:324px;
+    width: 1280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    color:#000000;
+    font-size:320px;
+    line-height:215px;
+}
+#correct-circle {
+    position: fixed;
+    top: 160px;
+    left: 370px;
+    width: 540px;
+    height: 540px;
+    /*visibility: hidden;*/
+    background-image:url('../images/contents/correct_circle.png'); 
+}
+#incorrect-cross {
+    position: fixed;
+    top: 160px;
+    left: 370px;
+    width: 540px;
+    height: 540px;
+    background-image:url('../images/contents/incorrect_cross.png'); 
+}
+
+#timeup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/contents/timeup_popup.png'); 
+    z-index: 100;
+}
+
+#txt-answer {
+    position: absolute;
+    top: 140px;
+    width: 1280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    font-size:80px;
+    color:#000000;
+    line-height:120px;
+}
+
+#txt-prepare-question {
+    position: absolute;
+    top: 280px;
+    width: 1280px;
+    height: 280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    font-size:280px;
+    color:#000000;
+    line-height:280px;
+    letter-spacing: 5px;
+}
+
+
+
+#txt-prepare-question-example {    
+    position: absolute;
+    top: 280px;
+    width: 1280px;
+    height: 280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    font-size:280px;
+    color:#000000;
+    line-height:220px;
+    letter-spacing: 5px;
+}
+
+#answer-example {
+    position: fixed;
+    top:324px;
+    width: 1280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    color:#000000;
+    font-size:320px;
+    line-height:215px;
+}
+
+#txt-answer-example {
+    position: absolute;
+    top: 140px;
+    width: 1280px;
+    font-family: 'rodin-b';
+    text-align: center;
+    font-size:80px;
+    color:#000000;
+    line-height:120px;
+    
+}
+
+#game-end {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url('../images/contents/end_popup.png'); 
+    z-index: 100;
+}

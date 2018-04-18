@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale = 1.335, minimum-scale = 1.335, maximum-scale = 1.335" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/ranking.css" />
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+</head>
+
+<body>
+    <section id="intro" style="display:none;">
+        <!--スタート/ノーマル/ハード/ハードロックボタン-->
+        <div id="start"></div>
+        <div id="normal_btn"></div>
+        <div id="hard_btn"></div>
+        <div id="hard_lock_btn"></div>
+
+        <!-- 終了ボタン-->
+        <div id="quit"></div>
+
+        <!--ハード、スタートライン -->
+        <div id="hard_line"><img src="images/title/hard_line.png"></div>
+
+        <!-- 例題 -->
+        <div id="reidai">
+            <table id="normal_rei" class="list-wrapper">
+                <tr class="list0">
+                    <td class="ans0">
+                        <p id="atari1">お</p>
+                    </td>
+                    <td class="ans1">
+                        <p>か</p>
+                    </td>
+                    <td class="ans2">
+                        <p>し</p>
+                    </td>
+                    <td class="ans3">
+                        <p>た</p>
+                    </td>
+                </tr>
+                <tr class="list1">
+                    <td class="ans0">
+                        <p>こ</p>
+                    </td>
+                    <td class="ans1">
+                        <p>け</p>
+                    </td>
+                    <td class="ans2">
+                        <p>す</p>
+                    </td>
+                    <td class="ans3">
+                        <p>ぬ</p>
+                    </td>
+                </tr>
+                <tr class="list2">
+                    <td class="ans0">
+                        <p>の</p>
+                    </td>
+                    <td class="ans1">
+                        <p>む</p>
+                    </td>
+                    <td class="ans2">
+                        <p>み</p>
+                    </td>
+                    <td class="ans3">
+                        <p>き</p>
+                    </td>
+                </tr>
+                <tr class="list3">
+                    <td class="ans0">
+                        <p>あ</p>
+                    </td>
+                    <td class="ans1">
+                        <p>ね</p>
+                    </td>
+                    <td class="ans2">
+                        <p>そ</p>
+                    </td>
+                    <td class="ans3">
+                        <p id="atari2">お</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--説明を聞く、説明キャンセル-->
+        <div id="setumei"></div>
+        <div id="setumeiCancel"></div>
+
+        <!--ランキングボタン-->
+        <div id="ranking_on"><img src="images/title/ranking_btn_on.png"></div>
+        <div id="ranking_off"><img src="images/title/ranking_btn_off.png"></div>
+
+        <!-- ハードロック時のポップアップ-->
+        <div id="hard_pop">
+            <div id="star1" class="star_common"></div>
+            <div id="star2" class="star_common"></div>
+            <div id="star3" class="star_common"></div>
+            <div id="star4" class="star_common"></div>
+            <div id="star5" class="star_common"></div>
+            <div id="close_hard_pop"></div>
+        </div>
+
+        <!-- フォントロード用-->
+        <div id="kakugoDummy">dummy</div>
+        <div id="rodinDummy">dummy</div>
+        <div id="rodinDBDummy">dummy</div>
+    </section>
+
+
+    <!-- ゲーム-->
+    <section id="game" class="scene" style="display: none;">
+        <table id="normal" class="list-wrapper">
+            <tr class="list0">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+            </tr>
+            <tr class="list1">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+            </tr>
+            <tr class="list2">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+            </tr>
+            <tr class="list3">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+            </tr>
+        </table>
+        <table id="hard" class="list-wrapper">
+            <tr class="list0">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+            <tr class="list1">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+            <tr class="list2">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+            <tr class="list3">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+            <tr class="list4">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+            <tr class="list5">
+                <td class="ans0"></td>
+                <td class="ans1"></td>
+                <td class="ans2"></td>
+                <td class="ans3"></td>
+                <td class="ans4"></td>
+                <td class="ans5"></td>
+            </tr>
+        </table>
+        <div id="count">
+            <p>第<span>1</span>問</p>
+        </div>
+        <div id="timer_bg"></div>
+        <div id="timer">
+            <p>20</p>
+        </div>
+        <div id="correct"><img src="images/maru.png"></div>
+        <div id="minus5"></div>
+
+        <div id="timeup"></div>
+        <div id="end"></div>
+    </section>
+
+    <!-- ランキング共通 -->
+    <!-- ランキングノーマル -->
+    <section id="ranking_normal" class="ranking_bg" style="display:none;">
+        <div class="ranking_header">
+            <div id="ranking_hard_btn_on" class="ranking_change_btn"><img src="./images/ranking/hard_on.png"></div>
+            <div id="ranking_hard_btn_off" class="ranking_change_btn"><img src="./images/ranking/hard_off.png"></div>
+            <div class="ranking_category">
+                <p class="ranking_app_name">ワンペアサーチ　ふつう</p>
+            </div>
+        </div>
+
+        <div class="rand_data">
+            <div id="normal_1st" class="ranking_plate">
+                <div id="rank_1st_normal" class="rank"></div>
+                <div id="icon_1st_normal" class="icon"></div>
+                <div id="name_1st_normal" class="name"></div>
+                <div id="rank2_1st_normal" class="rank2"></div>
+                <div id="clear-count_1st_normal" class="clear-count"></div>
+                <div id="clear-time_1st_normal" class="clear-time"></div>
+            </div>
+            <div id="normal_2nd" class="ranking_plate">
+                <div id="rank_2nd_normal" class="rank"></div>
+                <div id="icon_2nd_normal" class="icon"></div>
+                <div id="name_2nd_normal" class="name"></div>
+                <div id="rank2_2nd_normal" class="rank2"></div>
+                <div id="clear-count_2nd_normal" class="clear-count"></div>
+                <div id="clear-time_2nd_normal" class="clear-time"></div>
+            </div>
+            <div id="normal_3rd" class="ranking_plate">
+                <div id="rank_3rd_normal" class="rank"></div>
+                <div id="icon_3rd_normal" class="icon"></div>
+                <div id="name_3rd_normal" class="name"></div>
+                <div id="rank2_3rd_normal" class="rank2"></div>
+                <div id="clear-count_3rd_normal" class="clear-count"></div>
+                <div id="clear-time_3rd_normal" class="clear-time"></div>
+            </div>
+            <div id="new_record_normal" class="new_record">
+                <p id="record_rank2_normal" class="record_rank2"></p>
+                <div id="record_question_normal" class="record_question"></div>
+                <div id="record_second_normal" class="record_second"></div>
+                <div id="rank_end_on_normal" class="rank_end_btn"><img src="images/ranking/ok_btn_on.png"></div>
+                <div id="rank_end_off_normal" class="rank_end_btn"><img src="images/ranking/ok_btn_off.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ランキングハード -->
+    <section id="ranking_hard" class="ranking_bg" style="display:none;">
+        <div class="ranking_header">
+            <div id="ranking_normal_btn_on" class="ranking_change_btn"><img src="./images/ranking/normal_on.png"></div>
+            <div id="ranking_normal_btn_off" class="ranking_change_btn"><img src="./images/ranking/normal_off.png"></div>
+            <div class="ranking_category">
+                <p class="ranking_app_name">ワンペアサーチ　むずかしい</p>
+            </div>
+        </div>
+
+        <div class="rand_data">
+            <div id="hard_1st" class="ranking_plate">
+                <div id="rank_1st_hard" class="rank"></div>
+                <div id="icon_1st_hard" class="icon"></div>
+                <div id="name_1st_hard" class="name"></div>
+                <div id="rank2_1st_hard" class="rank2"></div>
+                <div id="clear-count_1st_hard" class="clear-count">5/5</div>
+                <div id="clear-time_1st_hard" class="clear-time">5</div>
+            </div>
+            <div id="hard_2nd" class="ranking_plate">
+                <div id="rank_2nd_hard" class="rank"></div>
+                <div id="icon_2nd_hard" class="icon"></div>
+                <div id="name_2nd_hard" class="name"></div>
+                <div id="rank2_2nd_hard" class="rank2"></div>
+                <div id="clear-count_2nd_hard" class="clear-count"></div>
+                <div id="clear-time_2nd_hard" class="clear-time"></div>
+            </div>
+            <div id="hard_3rd" class="ranking_plate">
+                <div id="rank_3rd_hard" class="rank"></div>
+                <div id="icon_3rd_hard" class="icon"></div>
+                <div id="name_3rd_hard" class="name"></div>
+                <div id="rank2_3rd_hard" class="rank2"></div>
+                <div id="clear-count_3rd_hard" class="clear-count"></div>
+                <div id="clear-time_3rd_hard" class="clear-time"></div>
+            </div>
+            <div id="new_record_hard" class="new_record">
+                <p id="record_rank2_hard" class="record_rank2"></p>
+                <div id="record_question_hard" class="record_question"></div>
+                <div id="record_second_hard" class="record_second"></div>
+                <div id="rank_end_on_hard" class="rank_end_btn"><img src="images/ranking/ok_btn_on.png"></div>
+                <div id="rank_end_off_hard" class="rank_end_btn"><img src="images/ranking/ok_btn_off.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="cover"></div>
+
+    <script src="js/jquery.qimhelpers2.js"></script>
+    <script src="js/adjust.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/configure.js"></script>
+</body>
+</html>

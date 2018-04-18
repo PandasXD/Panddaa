@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.1.0" uuid="sbr_30050_brain_009_order_memory">
+ <names>
+  <name lang="en_US">Orders of Animals</name>
+  <name lang="en_US-x-scrald">Orders of Animals</name>
+  <name lang="ja_JP">アニマル順番記憶</name>
+  <name lang="ja_JP-x-scrald">アニマル順番記憶</name>
+  <name lang="zh_TW">dongwu</name>
+ </names>
+ <descriptions>
+  <description lang="ja_JP">Pepperブレインアプリ内で動作するトレーニングの1つ。順番に読み上げる動物を覚え、正しく回答するアプリです。</description>
+  <description lang="ja_JP-x-scrald">Pepperブレインアプリ内で動作するトレーニングの1つ。順番に読み上げる動物を覚え、正しく回答するアプリです。</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+  <language>zh_CN</language>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+  <language>en_US</language>
+  <language>zh_TW</language>
+  <language>zh_CN</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Orders of Animals</name>
+    <name lang="en_US-x-scrald">Orders of Animals</name>
+    <name lang="ja_JP">アニマル順番記憶</name>
+    <name lang="ja_JP-x-scrald">アニマル順番記憶</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4" maxVersion="2"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

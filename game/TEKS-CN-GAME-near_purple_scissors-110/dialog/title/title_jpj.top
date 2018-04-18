@@ -1,0 +1,10 @@
+topic: ~title()
+language: jpj
+u:({*}[スタート]{*})$output="START"
+u:({*}[ふつう 普通]{*})$output="NORMAL"
+u:({*}[むずかしい 難しい]{*})$output="HARD"
+u:({*}[ランキング]{*})$output="RANKING"
+u:({*}[説明をきく 説明 説明して 説明聞きたい]{*})$output="SETUMEI"
+u:({*}[もう一回言って もう一度]{*})$output="AGAIN"
+u:(終了)$output="END"
+u:(e:Dialog/NotUnderstood)$output="ELSE"

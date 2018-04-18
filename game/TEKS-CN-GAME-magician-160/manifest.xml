@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.6.0" uuid="sbr_60130_magician-160-0ee070">
+ <names>
+  <name lang="en_US">Magician Pepper</name>
+  <name lang="en_US-x-scrald">Magician Pepper</name>
+  <name lang="ja_JP">手品</name>
+  <name lang="ja_JP-x-scrald">手品</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Pepper will show you some card magic. He hits the card you select and think in your heart.</description>
+  <description lang="en_US-x-scrald">Pepper will show you some card magic. He hits the card you select and think in your heart.</description>
+  <description lang="ja_JP">Pepperが手品師となり、トランプマジックを披露します。
+あなたが心に思ったカードを当ててみせます。</description>
+  <description lang="ja_JP-x-scrald">Pepperが手品師となり、トランプマジックを披露します。
+あなたが心に思ったカードを当ててみせます。</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Magician Pepper</name>
+    <name lang="en_US-x-scrald">Magician Pepper</name>
+    <name lang="ja_JP">手品</name>
+    <name lang="ja_JP-x-scrald">手品</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="ja_JP">手品</sentence>
+    <sentence lang="ja_JP-x-scrald">手品</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.5" maxVersion="2"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

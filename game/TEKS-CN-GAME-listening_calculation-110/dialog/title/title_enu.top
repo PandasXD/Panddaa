@@ -1,0 +1,19 @@
+topic: ~title()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+u:([start begin])$output="START"
+u:([normal common])$output="NORMAL"
+u:([hard difficult])$output="HARD"
+u:(ranking{*})$output="RANKING"
+u:([explaination introduction])$output="SETUMEI"
+u:([again "once again"])$output="AGAIN"
+u:(end)$output="END"
+u:(e:Dialog/NotUnderstood)$output="ELSE"

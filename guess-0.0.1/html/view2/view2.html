@@ -1,0 +1,19 @@
+<img src="img/home.png" width="64px" height="64px" ng-click="$ctrl.end()" style="position: absolute;top: 15px;left: 15px;z-index: 1;" />
+<div id="ptablet">
+    <div ng-class="{'col':true, 'scan_col':true,  'scan_img':true, 'ready': ready}">
+        <!--<div class="pepper_head"></div>-->
+        <div class="scan_img_frame">
+            <div id="preview_canvas" class="scan_video" style="width:700px;height: 400px;position: absolute;top: 120px;left: 5px;z-index: 9">
+                <canvas id="video_buffer" class="video" style="width:700px;height: 400px;">Video player</canvas>
+            </div>
+        </div>
+    </div>
+    <div style="font-size: 30px;width: 500px;margin:130px 0;color:dimgray;font-family:monospace;position: absolute;left: 400px">
+        <p>Follow the instructions of the robot</p>
+        <p>Look at the eyes of the robot</p>
+        <p>Stand within half a meter from the robot</p>
+    </div>
+    <a ng-href='#!game' ng-click='$ctrl.stop()' style="position: relative; top:565px;">
+        <div class="ui bottom attached button" tabindex="0">BACK</div>
+    </a>
+</div>

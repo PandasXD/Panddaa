@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale = 1.335, minimum-scale = 1.335, maximum-scale = 1.335" />
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/ranking.css" />
+</head>
+
+<body>
+    <div id="game-filter" class="game-page"></div>
+
+    <section id="intro" style="display:none;">
+        <!--スタート/ノーマル/ハード/ハードロックボタン-->
+        <div id="start"></div>
+        <div id="normal_btn"></div>
+        <div id="hard_btn"></div>
+        <div id="hard_lock_btn"></div>
+
+        <!-- 終了ボタン-->
+        <div id="quit"></div>
+
+        <!--ハード、スタートライン -->
+        <div id="hard_line"><img src="images/title/hard_line.png"></div>
+
+        <!-- 例題 -->
+        <div id="reidai">
+            <div id="ex-hand">
+                <div id="ex-grp-goo" class="pos-2">
+                    <div id="ex-btn-goo"></div>
+                </div>
+                <div id="ex-grp-choki" class="pos-1">
+                    <div id="ex-btn-choki"></div>
+                </div>
+                <div id="ex-grp-par" class="pos-3">
+                    <div id="ex-btn-par"></div>
+                </div>
+            </div>
+            <div id="ex-hand-answer">
+                <div id="ex-none-choki" class="pos-1"></div>
+                <div id="ex-none-par" class="pos-3"></div>
+                <div id="ex-circle"></div>
+            </div>
+        </div>
+
+        <!--説明を聞く、説明キャンセル-->
+        <div id="setumei"></div>
+        <div id="setumeiCancel"></div>
+
+        <!--ランキングボタン-->
+        <div id="ranking_on"><img src="images/title/ranking_btn_on.png"></div>
+        <div id="ranking_off"><img src="images/title/ranking_btn_off.png"></div>
+
+
+        <!-- ハードロック時のポップアップ-->
+        <div id="hard_pop">
+            <div id="star1" class="star_common"></div>
+            <div id="star2" class="star_common"></div>
+            <div id="star3" class="star_common"></div>
+            <div id="star4" class="star_common"></div>
+            <div id="star5" class="star_common"></div>
+            <div id="close_hard_pop"></div>
+        </div>
+
+        <!-- フォントロード用-->
+        <div id="kakugoDummy">dummy</div>
+        <div id="rodinDummy">dummy</div>
+        <div id="rodinDBDummy">dummy</div>
+    </section>
+
+
+    <!-- ゲーム-->
+    <section id="game_section" class="scene" style="display: none;">
+
+        <div id="game" class="game-page">
+            <div id="wrong"></div>
+<!--            <div id="question-time-game"></div>-->
+            <div id="question-no">第1问</div>
+            <div id="countdown">60</div>
+            <div id="minus-5"></div>
+            <div id="hand">
+                <div id="grp-goo" class="">
+                    <div id="btn-goo"></div>
+                    <div id="btn-disabled-goo"></div>
+                    <div id="none-goo"></div>
+                </div>
+                <div id="grp-choki" class="">
+                    <div id="btn-choki"></div>
+                    <div id="btn-disabled-choki"></div>
+                    <div id="none-choki"></div>
+                </div>
+                <div id="grp-par" class="">
+                    <div id="btn-par"></div>
+                    <div id="btn-disabled-par"></div>
+                    <div id="none-par"></div>
+                </div>
+                <div id="no-aiko">※ 不能出相同的</div>
+            </div>
+        </div>
+
+        <div id="circle" class="game-page"></div>
+        <div id="batsu" class="game-page"></div>
+        <div id="starting-game" class="game-page"></div>
+        <div id="end"></div>
+
+    </section>
+
+    <!-- ランキング共通 -->
+    <!-- ランキングノーマル -->
+    <section id="ranking_normal" class="ranking_bg" style="display:none;">
+        <div class="ranking_header">
+            <div id="ranking_hard_btn_on" class="ranking_change_btn"><img src="./images/ranking/hard_on.png"></div>
+            <div id="ranking_hard_btn_off" class="ranking_change_btn"><img src="./images/ranking/hard_off.png"></div>
+            <div class="ranking_category">
+                <p class="ranking_app_name">剪刀石头布  普通</p>
+            </div>
+        </div>
+
+        <div class="rand_data">
+            <div id="normal_1st" class="ranking_plate">
+                <div id="rank_1st_normal" class="rank"></div>
+                <div id="icon_1st_normal" class="icon"></div>
+                <div id="name_1st_normal" class="name"></div>
+                <div id="rank2_1st_normal" class="rank2"></div>
+                <div id="clear-count_1st_normal" class="clear-count"></div>
+<!--                <div id="clear-time_1st_normal" class="clear-time"></div>-->
+            </div>
+            <div id="normal_2nd" class="ranking_plate">
+                <div id="rank_2nd_normal" class="rank"></div>
+                <div id="icon_2nd_normal" class="icon"></div>
+                <div id="name_2nd_normal" class="name"></div>
+                <div id="rank2_2nd_normal" class="rank2"></div>
+                <div id="clear-count_2nd_normal" class="clear-count"></div>
+<!--                <div id="clear-time_2nd_normal" class="clear-time"></div>-->
+            </div>
+            <div id="normal_3rd" class="ranking_plate">
+                <div id="rank_3rd_normal" class="rank"></div>
+                <div id="icon_3rd_normal" class="icon"></div>
+                <div id="name_3rd_normal" class="name"></div>
+                <div id="rank2_3rd_normal" class="rank2"></div>
+                <div id="clear-count_3rd_normal" class="clear-count"></div>
+<!--                <div id="clear-time_3rd_normal" class="clear-time"></div>-->
+            </div>
+            <div id="new_record_normal" class="new_record">
+                <p id="record_rank2_normal" class="record_rank2"></p>
+                <div id="record_question_normal" class="record_question"></div>
+                <div id="record_second_normal" class="record_second"></div>
+                <div id="rank_end_on_normal" class="rank_end_btn"><img src="images/ranking/ok_btn_on.png"></div>
+                <div id="rank_end_off_normal" class="rank_end_btn"><img src="images/ranking/ok_btn_off.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ランキングハード -->
+    <section id="ranking_hard" class="ranking_bg" style="display:none;">
+        <div class="ranking_header">
+            <div id="ranking_normal_btn_on" class="ranking_change_btn"><img src="./images/ranking/normal_on.png"></div>
+            <div id="ranking_normal_btn_off" class="ranking_change_btn"><img src="./images/ranking/normal_off.png"></div>
+            <div class="ranking_category">
+                <p class="ranking_app_name">剪刀石头布  困难</p>
+            </div>
+        </div>
+
+        <div class="rand_data">
+            <div id="hard_1st" class="ranking_plate">
+                <div id="rank_1st_hard" class="rank"></div>
+                <div id="icon_1st_hard" class="icon"></div>
+                <div id="name_1st_hard" class="name"></div>
+                <div id="rank2_1st_hard" class="rank2"></div>
+                <div id="clear-count_1st_hard" class="clear-count">5</div>
+<!--                <div id="clear-time_1st_hard" class="clear-time"></div>-->
+            </div>
+            <div id="hard_2nd" class="ranking_plate">
+                <div id="rank_2nd_hard" class="rank"></div>
+                <div id="icon_2nd_hard" class="icon"></div>
+                <div id="name_2nd_hard" class="name"></div>
+                <div id="rank2_2nd_hard" class="rank2"></div>
+                <div id="clear-count_2nd_hard" class="clear-count"></div>
+<!--                <div id="clear-time_2nd_hard" class="clear-time"></div>-->
+            </div>
+            <div id="hard_3rd" class="ranking_plate">
+                <div id="rank_3rd_hard" class="rank"></div>
+                <div id="icon_3rd_hard" class="icon"></div>
+                <div id="name_3rd_hard" class="name"></div>
+                <div id="rank2_3rd_hard" class="rank2"></div>
+                <div id="clear-count_3rd_hard" class="clear-count"></div>
+<!--                <div id="clear-time_3rd_hard" class="clear-time"></div>-->
+            </div>
+            <div id="new_record_hard" class="new_record">
+                <p id="record_rank2_hard" class="record_rank2"></p>
+                <div id="record_question_hard" class="record_question"></div>
+                <div id="record_second_hard" class="record_second"></div>
+                <div id="rank_end_on_hard" class="rank_end_btn"><img src="images/ranking/ok_btn_on.png"></div>
+                <div id="rank_end_off_hard" class="rank_end_btn"><img src="images/ranking/ok_btn_off.png"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="cover"></div>
+
+    <script src="js/jquery.qimhelpers2.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/configure.js"></script>
+    <script src="js/adjust.js"></script>
+</body>
+
+</html>

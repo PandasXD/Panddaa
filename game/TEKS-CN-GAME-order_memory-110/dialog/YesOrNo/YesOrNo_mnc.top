@@ -1,0 +1,18 @@
+topic: ~YesOrNo()
+language: mnc
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+u:({*}[好 可以 行 ]{*})$output="YES"
+
+u:({*}[不要 不好 不可以 不行]{*})$output="NO"
+
+u:({*}[再说一次 再来一次 再一次 还要]{*})$output="AGAIN"
+
+u:(e:Dialog/NotUnderstood)$output="ELSE"

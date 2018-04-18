@@ -1,0 +1,456 @@
+@font-face {
+    font-family: rodin-b;
+    src: url(../font/FOT-RodinNTLGPro-B.woff2) format('truetype');
+}
+
+@font-face {
+    font-family: kakugo;
+    src: url(../font/FOT-UDKakugo_LargePr6-B.woff2) format('truetype');
+}
+
+@font-face {
+    font-family: Rodin-DB;
+    src: url(../font/FOT-RodinNTLGPro-DB.woff2) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+
+body {
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+section {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+#intro,
+#game_section {
+    font-family: rodin-b;
+}
+
+.game-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    display: none;
+}
+
+#game-filter {
+    z-index: 300;
+}
+
+/*
+** イントロ画面
+*/
+
+#intro {
+    background-image: url(../images/title.png);
+    background-color: "#ccc";
+}
+
+#start {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 403px;
+    background-image: url(../images/start_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#normal_btn {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 150px;
+    background-image: url(../images/normal_btn_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#hard_btn,
+#hard_lock_btn {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 650px;
+    background-image: url(../images/hard_btn_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#hard_lock_btn {
+    background-image: url(../images/key_btn_off.png);
+}
+
+#hard_line {
+    position: absolute;
+    width: 620px;
+    height: 167px;
+    top: 0px;
+    display: none;
+}
+
+#setumei {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 1120px;
+    background-image: url(../images/setumei_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#setumeiCancel {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 1120px;
+    background-image: url(../images/setumeiCancel_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+/*
+** フォントプリロード系
+*/
+
+#kakugoDummy,
+#rodinDummy,
+#rodinDBDummy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+
+#kakugoDummy {
+    font-family: kakugo;
+}
+
+#rodinDummy {
+    font-family: rodin-b;
+}
+
+#rodinDBDummy {
+    font-family: Rodin-DB;
+}
+
+/*
+** 例題
+*/
+
+#reidai {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url("../images/example_bg.png");
+    background-repeat: no-repeat;
+}
+
+.box-ex {
+    float: left;
+    border-style: solid;
+    border-width: 0px;
+    width: 320px;
+    height: 320px;
+    margin-right: 20px;
+    background-image: url("../images/normal_square.png");
+}
+
+#box-container-ex {
+    position: absolute;
+    top: 258px;
+    left: 138px;
+    width: 100%;
+	font-family: 'rodin-b';
+    font-size: 280px;
+    text-align: center;
+    line-height: 334px;
+    color: #000000;
+    display: none;
+}
+
+
+/*
+** ハードロック
+*/
+
+#hard_pop {
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url("../images/hard_pop/29_bg.png");
+    background-repeat: no-repeat;
+}
+
+.star_common {
+    width: 153px;
+    height: 145px;
+    top: 259px;
+    display: none;
+    position: absolute;
+    background-image: url("../images/hard_pop/29_star.png");
+    background-repeat: no-repeat;
+}
+
+#star1 {
+    left: 184px;
+}
+
+#star2 {
+    left: 374px;
+}
+
+#star3 {
+    left: 564px;
+}
+
+#star4 {
+    left: 754px;
+}
+
+#star5 {
+    left: 944px;
+}
+
+#close_hard_pop {
+    width: 481px;
+    height: 118px;
+    top: 600px;
+    left: 400px;
+    position: absolute;
+    background-image: url("../images/hard_pop/close_btn_off.png");
+    background-repeat: no-repeat;
+}
+
+
+/*
+** 終了用
+*/
+
+#quit {
+    background-image: url(../images/quit_off.png);
+    background-repeat: no-repeat;
+    width: 112px;
+    height: 118px;
+    position: absolute;
+    top: 670px;
+    left: 0px;
+    display: none;
+}
+
+#cover {
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+
+/*ゲーム*/
+
+/**
+* scene : game_section
+*/
+
+/* #game_section div {
+    position: absolute;
+}
+
+#game_section {
+    display: none;
+    background-image: url(../images/game_bg_time.png);
+}
+*/
+
+#game,
+#show-answer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url(../images/game_bg_time.png);
+}
+
+#wrong {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url(../images/incorrectanswer.png);
+}
+/*
+#question-time-game,
+#question-time-answer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 306px;
+    height: 106px;
+    background-image: url(../images/question_time.png);
+}
+*/
+#box-container-a {
+    position: absolute;
+    top: 258px;
+    left: 138px;
+    width: 100%;
+	font-family: 'rodin-b';
+    font-size: 280px;
+    text-align: center;
+    line-height: 334px;
+    color: #000000;
+    display: none;
+}
+
+.box-a {
+    float: left;
+    border-style: solid;
+    border-width: 0px;
+    width: 320px;
+    height: 320px;
+    margin-right: 20px;
+    background-image: url(../images/normal_square.png);
+}
+
+#box-container-b {
+    position: absolute;
+    top: 268px;
+    left: 88px;
+    width: 100%;
+	font-family: 'rodin-b';
+    font-size: 220px;
+    text-align: center;
+    line-height: 267px;
+    color: #000000;
+    display: none;
+}
+
+.box-b {
+    float: left;
+    border-style: solid;
+    border-width: 0px;
+    width: 260px;
+    height: 260px;
+    margin-right: 21px;
+    background-image: url(../images/hard_square.png);
+}
+
+#btn-ltn-agn {
+    position: absolute;
+    top: 620px;
+    left: 340px;
+    width: 600px;
+    height: 108px;
+    display: none;
+    background-image: url(../images/q_btn_off.png);
+}
+
+#btn-ltn-agn-none {
+    position: absolute;
+    top: 620px;
+    left: 340px;
+    width: 600px;
+    height: 108px;
+    display: none;
+    background-image: url(../images/q_btn_none.png);
+}
+
+#question-no {
+    position: absolute;
+    left: 517px;
+    width: 250px;
+    height: auto;
+    font-family: 'rodin-b';
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#countdown {
+    position: absolute;
+    top: -17px;
+    left: 1078px;
+    width: 150px;
+    font-family: 'kakugo';
+    font-size: 64px;
+    text-align: center;
+}
+
+#circle {
+    position: absolute;
+    top: 160px;
+    left: 371px;
+    width: 540px;
+    height: 540px;
+    display: none;
+    background-image: url(../images/maru.png);
+}
+
+#timeup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url(../images/timeup_popup.png);
+}
+
+#end {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 800px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+    background-image:url(../images/end_popup.png);
+}

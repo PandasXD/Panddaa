@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.1.2" uuid="sbr_30050_brain_003_one_pair_search">
+ <names>
+  <name lang="en_US">Find the One Pair</name>
+  <name lang="en_US-x-scrald">Find the One Pair</name>
+  <name lang="ja_JP">ワンペアサーチ</name>
+  <name lang="ja_JP-x-scrald">ワンペアサーチ</name>
+  <name lang="zh_CN">找相同</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">one pair search game</description>
+  <description lang="ja_JP">Pepperブレインアプリ内で動作するトレーニングの1つ。&#xd;
+たくさんの文字や図形から、1組だけある組み合わせを探しだすアプリです。</description>
+  <description lang="ja_JP-x-scrald">Pepperブレインアプリ内で動作するトレーニングの1つ。&#xd;
+たくさんの文字や図形から、1組だけある組み合わせを探しだすアプリです。</description>
+  <description lang="zh_CN">找相同游戏</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+  <language>zh_CN</language>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+  <language>zh_CN</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Find the One Pair</name>
+    <name lang="en_US-x-scrald">Find the One Pair</name>
+    <name lang="ja_JP">ワンペアサーチ</name>
+    <name lang="ja_JP-x-scrald">ワンペアサーチ</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4" maxVersion="2.5"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

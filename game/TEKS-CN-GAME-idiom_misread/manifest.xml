@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="sbr_30050_brain_006_idiom_misread" version="1.1.0">
+ <names>
+  <name lang="en_US">Correct the Reading</name>
+  <name lang="en_US-x-scrald">Correct the Reading</name>
+  <name lang="ja_JP">読み違え熟語</name>
+  <name lang="ja_JP-x-scrald">読み違え熟語</name>
+ </names>
+ <descriptions>
+  <description lang="ja_JP">Pepperブレインアプリ内で動作するトレーニングの1つ。
+誤った読み方で読まれた熟語を、正しい読み方で回答するアプリです。</description>
+  <description lang="ja_JP-x-scrald">Pepperブレインアプリ内で動作するトレーニングの1つ。
+誤った読み方で読まれた熟語を、正しい読み方で回答するアプリです。</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Correct the Reading</name>
+    <name lang="en_US-x-scrald">Correct the Reading</name>
+    <name lang="ja_JP">読み違え熟語</name>
+    <name lang="ja_JP-x-scrald">読み違え熟語</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2" minVersion="2.4"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

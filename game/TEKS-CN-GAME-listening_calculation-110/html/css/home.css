@@ -1,0 +1,219 @@
+@font-face {
+    font-family: rodin-b;
+    src: url(../font/FOT-RodinNTLGPro-B.woff2) format('truetype');
+}
+
+@font-face {
+    font-family: kakugo;
+    src: url(../font/FOT-UDKakugo_LargePr6-B.woff2) format('truetype');
+}
+
+@font-face {
+    font-family: Rodin-DB;
+    src: url(../font/FOT-RodinNTLGPro-DB.woff2) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+
+body {
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+section {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+#intro {
+    background-image: url(../images/title.png);
+    background-color: "#ccc";
+}
+
+#start {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 403px;
+    background-image: url(../images/title/start_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#normal_btn {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 150px;
+    background-image: url(../images/title/normal_btn_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#hard_btn,
+#hard_lock_btn {
+    position: absolute;
+    width: 480px;
+    height: 118px;
+    top: 669px;
+    left: 650px;
+    background-image: url(../images/title/hard_btn_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#hard_lock_btn {
+    background-image: url(../images/title/key_btn_off.png);
+}
+
+#hard_line {
+    position: absolute;
+    width: 620px;
+    height: 167px;
+    top: 0px;
+    display: none;
+}
+
+#setumei {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 1120px;
+    background-image: url(../images/title/setumei_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#setumeiCancel {
+    position: absolute;
+    width: 140px;
+    height: 118px;
+    left: 1120px;
+    background-image: url(../images/title/setumeiCancel_off.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+/*
+** フォントプリロード系
+*/
+
+#kakugoDummy,
+#rodinDummy,
+#rodinDBDummy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+
+#kakugoDummy {
+    font-family: kakugo;
+}
+
+#rodinDummy {
+    font-family: rodin-b;
+}
+
+#rodinDBDummy {
+    font-family: Rodin-DB;
+}
+
+/*
+** ハードロック
+*/
+
+#hard_pop {
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url("../images/hard_pop/bg_star_0.png");
+    background-repeat: no-repeat;
+}
+
+.star_common {
+    width: 153px;
+    height: 145px;
+    top: 259px;
+    display: none;
+    position: absolute;
+    background-image: url("../images/hard_pop/29_star.png");
+    background-repeat: no-repeat;
+}
+
+#star1 {
+    left: 184px;
+}
+
+#star2 {
+    left: 374px;
+}
+
+#star3 {
+    left: 564px;
+}
+
+#star4 {
+    left: 754px;
+}
+
+#star5 {
+    left: 944px;
+}
+
+#close_hard_pop {
+    width: 481px;
+    height: 118px;
+    top: 600px;
+    left: 400px;
+    position: absolute;
+    background-image: url("../images/hard_pop/close_btn_off.png");
+    background-repeat: no-repeat;
+}
+
+
+/*
+** 終了用
+*/
+
+#quit {
+    background-image: url(../images/title/quit_off.png);
+    background-repeat: no-repeat;
+    width: 112px;
+    height: 118px;
+    position: absolute;
+    top: 670px;
+    left: 0px;
+    display: none;
+}
+
+#cover {
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 100;
+}
